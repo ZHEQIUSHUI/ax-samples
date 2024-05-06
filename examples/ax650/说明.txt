@@ -1,0 +1,5 @@
+可使用如下命令测试
+./ax_yolov5_coco_user  -m yolov5s.axmodel -i ./val2017/  -s ./
+python cal_coco_mAP.py --log ax650_coco_results.json --anno instances_val2017.json --image-dir ./val2017
+
+
